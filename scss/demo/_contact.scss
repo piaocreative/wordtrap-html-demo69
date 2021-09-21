@@ -1,0 +1,46 @@
+/* ----------------------------------------------------------------
+
+	Contact.scss
+
+-----------------------------------------------------------------*/
+#contact {
+	position: relative;
+	top: -9rem;
+	margin-bottom: -9rem;
+
+	h4 {
+		font-size: 2.1875rem;
+	}
+
+	p, a {
+		color: #788cc5;
+	}
+
+	button {
+		font-size: 1rem;
+		padding: 1.3rem 1rem;
+		font-weight: 500;
+		border: 3px solid $white;
+	}
+
+	p {
+		font-weight: 500;
+	}
+
+	@include media-breakpoint-down(lg) {
+		top: 1rem;
+		margin: 1rem;
+	}
+}
+
+.contact-camera {
+	width: 26rem;
+    position: relative;
+    top: 2rem;
+    left: -3rem;
+    z-index: 1;
+
+	@include media-breakpoint-down(lg) {
+		display: none;
+	}
+}
