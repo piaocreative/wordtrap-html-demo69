@@ -1,6 +1,9 @@
 /* ----------------------------------------------------------------
 	Extra Styles
 -----------------------------------------------------------------*/
+.container-fluid {
+	overflow: hidden;
+}
 
 .shipping-banner {
 	position: absolute;
@@ -119,17 +122,18 @@
 	.camera-image {
 		position: relative;
 		width: 65rem;
-		right: 22rem;
+		right: calc(21vw - 4rem);
 
-		@include media-breakpoint-down(xxl) {
-			width: 40rem;
-			right: 9rem;
+		img{
+			max-width: calc(58vw - 5rem);
 		}
 
 		@include media-breakpoint-down(lg) {
-			width: 100%;
-			height: auto;
 			right: 0;
+
+			img {
+				max-width: 100%;
+			}
 		}
 	}
 

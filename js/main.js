@@ -8,6 +8,14 @@ $( document ).ready( function() {
     arrows: false,
     responsive: [
         {
+            breakpoint: 1650,
+            settings: {
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
             breakpoint: 992,
             settings: {
                 infinite: true,
@@ -34,6 +42,40 @@ $( document ).ready( function() {
     ]
   });
 
+  $( '.logos' ).slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        }
+    ]
+  });
+
   $( '.teams').slick({
     infinite: true,
     slidesToShow: 4,
@@ -41,6 +83,14 @@ $( document ).ready( function() {
     dots: false,
     arrows: false,
     responsive: [
+        {
+            breakpoint: 1600,
+            settings: {
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+        },
         {
             breakpoint: 992,
             settings: {

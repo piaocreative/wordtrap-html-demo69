@@ -108,23 +108,37 @@
 -----------------------------------------------------------------*/
 
 .ads {
-    position: relative;
-    display: block;
+	position: relative;
+	display: block;
 
 	.ads-bg {
-		img {
-			height: 25rem;
-		}
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
 
+		.ads-bg-img {
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.ads-body {
+		position: relative;
+		z-index: 1;
 	}
 
 	&.ads1 {
 		.ads-body {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			height: 100%;
+			padding: 7rem 0;
 
 			h3 {
 				font-size: 3.125rem;
