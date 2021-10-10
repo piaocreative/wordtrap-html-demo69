@@ -20,7 +20,6 @@
 .product-menu {
 	li {
 		a {
-			font-family: $body-font;
 			font-size: 0.875rem;
 			color: $dark;
 			padding: 0.8rem 3rem;
@@ -89,7 +88,6 @@
 
 	.add-to-cart {
 		display: inline-block;
-		font-family: $body-font;
 		font-weight: 500;
 		color: $white;
 		padding: 0.75rem 2.25rem;
@@ -172,19 +170,14 @@
 	}
 
 	.testimonial-details {
-		font-family: $body-font;
-		font-size: 1rem;
 		color: $secondary;
 
 	}
+
 	.testimonial-name, .testimonial-info {
 		font-size: 0.875rem;
 		font-weight: 700;
 		line-height: 1;
-	}
-
-	.testimonial-age {
-		font-weight: 400;
 	}
 
 	.testimonial-rating {
