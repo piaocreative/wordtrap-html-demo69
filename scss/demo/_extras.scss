@@ -76,23 +76,6 @@
 	}
 }
 
-#subscribe {
-	input{
-		border-bottom: 1px solid $white;
-	}
-
-	input[type=text], input[type=email] {
-		height: 3rem;
-	}
-
-	label {
-		color: $white;
-		font-size: 0.8rem;
-		display: block;
-		margin-bottom: -1rem;
-	}
-}
-
 .camera {
 	.camera-image {
 		position: relative;
